@@ -1,0 +1,71 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials.json
+credentials.yaml
+credentials.yml
+secrets.json
+secrets.yaml
+secrets.yml
+*_secret.*
+*_secrets.*
+*secret*
+*token*
+*password*
+
+# Application-local data and audit logs
+.system-assistant/
+audit.jsonl
+*.audit.jsonl
+logs/
+*.log
+
+# Python environments, caches, coverage, and generated artifacts
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local tools and editor metadata
+.idea/
+.vscode/
+*.code-workspace
+.python-version
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Workspace/agent metadata that is not part of the application release
+.agents/
+.aws/
+.codex/
